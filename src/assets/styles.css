@@ -1,0 +1,28 @@
+/* CSS Global */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-nav a {
+    color: #777;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar-nav a:hover {
+    color: red;
+  }
+  
+  /* Adicione os demais estilos globais conforme necessário */
+  

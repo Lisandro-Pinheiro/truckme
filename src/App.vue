@@ -1,28 +1,34 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <HeaderComponent />
+    <BannerComponent />
+    <AboutComponent />
+    <ServicesTableComponent />
+    <GalleryComponent />
+    <ContactFormComponent />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from './components/HeaderComponent.vue';
+import BannerComponent from './components/BannerComponent.vue';
+import AboutComponent from './components/AboutComponent.vue';
+import ServicesTableComponent from './components/ServicesTableComponent.vue';
+import GalleryComponent from './components/GalleryComponent.vue';
+import ContactFormComponent from './components/ContactFormComponent.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    HeaderComponent,
+    BannerComponent,
+    AboutComponent,
+    ServicesTableComponent,
+    GalleryComponent,
+    ContactFormComponent,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Estilos globais, se necessário */
 </style>
