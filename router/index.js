@@ -1,61 +1,39 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Header from '@/components/HeaderComponent.vue';
-import BannerComponent from '@/components/BannerComponent.vue';
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import HeaderComponent from '@/components/HeaderComponent.vue';
-import AboutComponent from '@/components/AboutComponent.vue';
-import ServicesTableComponent from '@/components/ServicesTableComponent.vue';
-import GalleryComponent from '@/components/GalleryComponent.vue';
-import ContactFormComponent from '@/components/ContactFormComponent.vue';
+import HomeView from '@/views/HomeView.vue';
+import AboutView from '@/views/AboutView.vue';
+import ServicesView from '@/views/ServicesView.vue';
+import ContactView from '@/views/ContactView.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    components: {
-      default: Header,
-      banner: BannerComponent,
-    },
-    children: [
-      {
-        path: '',
-        component: BannerComponent,
-      },
-    ],
-  },
-  {
-    path: '/',
     name: 'Home',
-    component: HeaderComponent,
+    component: HomeView
   },
   {
     path: '/about',
     name: 'About',
-    component: AboutComponent,
+    component: AboutView
   },
   {
     path: '/services',
     name: 'Services',
-    components: {
-      default: ServicesTableComponent,
-      gallery: GalleryComponent,
-    },
+    component: ServicesView
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: ContactFormComponent,
-  },
- 
+    component: ContactView
+  }
 ];
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 export default router;

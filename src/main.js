@@ -1,9 +1,10 @@
-import Vue from 'vue';  // Importa o Vue
-import App from './App.vue';  // Importa o componente raiz App.vue
-import './assets/styles.css';  // Importa o arquivo de estilos CSS
+import Vue from 'vue';
+import App from './App.vue';
+import router from '../router';
 
+Vue.config.productionTip = false;
 
 new Vue({
-  el: '#app',  // Monta a aplicação no elemento com o id 'app' no index.html
-  render: h => h(App)  // Renderiza o componente App.vue
-});
+  router,
+  render: h => h(App),
+}).$mount('#app');

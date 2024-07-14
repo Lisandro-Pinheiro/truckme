@@ -3,7 +3,7 @@
     <div class="section_overlay">
       <div class="home_text">
         <h2>Bem-vindo à TruckMe</h2>
-        <p>Solução Inteligente em Fretes</p>
+        <h3>Solução Inteligente em Fretes</h3>
       </div>
     </div>
   </div>
