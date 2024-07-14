@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos específicos para o componente AboutComponent */
+
 #about-us {
   background-color: #f7f7f7;
   padding: 50px 0;
@@ -55,7 +55,7 @@ p {
 }
 
 .gallery-btn {
-  background-color: #ff3333; /* Vermelho */
+  background-color: #ff3333; 
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -66,6 +66,6 @@ p {
 }
 
 .gallery-btn:hover {
-  background-color: #cc0000; /* Vermelho mais escuro ao passar o mouse */
+  background-color: #cc0000; 
 }
 </style>

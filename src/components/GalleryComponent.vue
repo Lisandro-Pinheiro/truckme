@@ -20,7 +20,7 @@
     data() {
       return {
         currentImageIndex: 0,
-        totalImages: 3  // Total de imagens na galeria
+        totalImages: 3  
       };
     },
     methods: {

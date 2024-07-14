@@ -48,22 +48,22 @@
 
 .services_table {
   margin-top: 20px;
-  overflow-x: auto; /* Adicionado para scroll horizontal em telas menores */
+  overflow-x: auto; 
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed; /* Garante que a largura da tabela seja fixa */
+  table-layout: fixed; 
 }
 
 th, td {
   padding: 15px;
   text-align: left;
   border-bottom: 1px solid #ddd;
-  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-  overflow: hidden; /* Impede que o texto vaze para fora da célula */
-  text-overflow: ellipsis; /* Mostra "..." se o texto vazar */
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
 }
 
 th {
@@ -73,4 +73,5 @@ th {
 tr:hover {
   background-color: #f1f1f1;
 }
+
 </style>

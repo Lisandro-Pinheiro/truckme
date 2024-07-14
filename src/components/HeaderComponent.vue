@@ -1,7 +1,7 @@
 
 <template>
   <header>
-    <!-- Navbar -->
+   
     <nav class="navbar-default">
     <div class="container">
       <router-link to="/" class="nav-link" exact>
@@ -16,10 +16,9 @@
     </div>
   </nav>
 
-    <!-- Conteúdo dinâmico (Banner Component) -->
+  
     <router-view name="banner" />
 
-    <!-- Rota principal -->
     <router-view />
   </header>
 </template>
@@ -31,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos para a Navbar */
+
 .navbar-default {
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

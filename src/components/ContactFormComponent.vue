@@ -42,7 +42,7 @@ export default {
   methods: {
     submitForm() {
       if (this.name && this.email && this.message) {
-        // Validação e envio do formulário
+       
         alert('Formulário enviado!');
       } else {
         alert('Por favor, preencha todos os campos.');
@@ -54,21 +54,21 @@ export default {
 
 <style scoped>
 .contact {
-  background-color: #f1f1f1; /* Cor de fundo cinza como solicitado */
+  background-color: #f1f1f1; 
   padding: 30px;
-  text-align: center; /* Centraliza o texto e conteúdo */
+  text-align: center; 
 }
 
 .contact-form {
-  background-color: #fff; /* Fundo branco para o formulário */
-  padding: 20px; /* Reduzido o padding para diminuir o tamanho geral */
+  background-color: #fff;
+  padding: 20px; 
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
-  margin-bottom: 15px; /* Reduzido o espaço entre os grupos de formulário */
-  text-align: left; /* Alinha o texto dos labels à esquerda */
+  margin-bottom: 15px; 
+  text-align: left; 
 }
 
 label {
@@ -76,13 +76,13 @@ label {
 }
 
 .form-control {
-  height: 40px; /* Altura dos inputs de texto */
-  border: 1px solid #000; /* Borda preta */
-  background-color: transparent; /* Fundo transparente */
+  height: 40px; 
+  border: 1px solid #000;
+  background-color: transparent; 
   padding: 0 15px;
   transition: border-color 0.3s;
-  width: 100%; /* Largura total */
-  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+  width: 100%; 
+  box-sizing: border-box; 
 }
 
 .form-control:focus {
@@ -91,10 +91,10 @@ label {
 }
 
 textarea.form-control {
-  height: 120px; /* Altura do textarea */
-  resize: vertical; /* Permite redimensionamento vertical */
-  width: 100%; /* Largura total */
-  box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+  height: 120px; 
+  resize: vertical; 
+  width: 100%; 
+  box-sizing: border-box; 
 }
 
 .btn-primary {
@@ -105,7 +105,7 @@ textarea.form-control {
   padding: 12px 20px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 100%; /* Largura total */
+  width: 100%; 
 }
 
 .btn-primary:hover {
